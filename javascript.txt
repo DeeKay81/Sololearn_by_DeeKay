@@ -24,3 +24,10 @@
 # means: if it doesn't work in chrome, you'll have to look closer)
 # JS is case sensitive (lastName and lastname are two different variables!)
 # 'var' is still a common way to create variables, but the modern way is 'let' (both are allowed ... yet)
+# first character of a variable name must be a letter, underscore (_), or a dollar sign ($)
+# Subsequent characters can be letters, digits, underscores, or dollar signs
+# first character of a variable name can’t be a number.
+# variable names can’t include a mathematical or logical operator in their name (for instance, 2*something or this+that)
+# variable names can’t contain spaces
+# you’re not allowed to use any special symbols, like my#num, num%, etc.
+# JS is a hyphen free zone (they’re reserved for subtractions)

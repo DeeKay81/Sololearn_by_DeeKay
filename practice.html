@@ -45,5 +45,37 @@
             }
             hour();
         </script>
+    <h2>if, else if, else Example:</h2>
+        <script>
+            let course = 1; // change number to 2 or another number to see the different outputs
+            if (course === 1){
+                document.write("No. 1 = HTML Tutorial");
+            }
+            else if (course === 2){
+                document.write("No. 2 = CSS Tutorial");
+            }
+            else {
+                document.write("Another No. = JavaScript Tutorial")
+            }
+        </script>
+    <h2>switch Example:</h2>
+        <script>
+            let choice = 1; // change number to 2 or another number to see the different outputs
+            switch (choice) {
+                case 1:
+                    choice = 'one';
+                    break;
+                case 2:
+                    choice = 'two';
+                    break;
+                case "3": // watch out: 3 != "3" ;-)   test it
+                    choice = 'three';
+                    break;
+                default:
+                    choice = 'not found';
+                    break;
+            }
+            document.write(`The value is ${choice}`);
+        </script>
 </body>
 </html>

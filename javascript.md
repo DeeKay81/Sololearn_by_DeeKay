@@ -19,10 +19,12 @@ things JavaScript is used for:
 <h3>Basics:</h3>
 <ul>
 <li>inside an html doc you have to use 'script' to write js</li>
-<li>in html you should usually use hyphens (also in doc names) - spiritualize it use google chrome for testing (it's requirements are much more strict than in other browsers;</li>
+<li>in html you should usually use hyphens (also in doc names) - spiritualize it use google chrome 
+for testing (it's requirements are much more strict than in other browsers;</li>
 <li>means: if it doesn't work in chrome, you'll have to look closer)</li>
 <li>JS is case sensitive (lastName and lastname are two different variables!)</li>
-<li>'var' is still a common way to create variables, but the modern way is 'let' (both are allowed ... yet)</li>
+<li>'var' is still a common way to create variables, but the modern way is 'let' (both are allowed 
+... yet)</li>
 <li>first character of a variable name must be a letter, underscore (_), or a dollar sign ($)</li>
 <li>Subsequent characters can be letters, digits, underscores, or dollar signs</li>
 <li>first character of a variable name can’t be a number.</li>
@@ -46,30 +48,61 @@ Read through: <a href="https://www.programiz.com/javascript/data-types">Programi
 <li>object</li>
 <hr />
 <h3>Operators:</h3>
-Find more on this page: <a href="https://www.programiz.com/javascript/operators">Programize - JavaScript Operators</a>
+Find more on this page: <a href="https://www.programiz.com/javascript/operators">Programize - 
+JavaScript Operators</a>
 <h5><u>Arithmetic Operators:</u></h5>
-Take a look at this picture over here: <a href="https://api.sololearn.com/DownloadFile?id=2745">get pic</a>
+Take a look at this picture over here: <a href="https://api.sololearn.com/DownloadFile?id=2745">get 
+pic</a>
 <br>
 Ok, we all know the basics, but what does this 'increment' or 'decrement' do?<br>
-<p>The increment operator increases the numeric value of its operand by 1. When placed before the operand, it’ll return the incremented value. When placed after it, it’ll return the original value and then increments the operand.</p>
-<p>The decrement operator decreases the numeric value of its operand by 1. When placed before the operand, it’ll return the decremented value. When placed after the operand, it’ll return the original value and then decrements the operand.</p>
+<p>The increment operator increases the numeric value of its operand by 1. When placed before the 
+operand, it’ll return the incremented value. When placed after it, it’ll return the original value 
+and then increments the operand.</p>
+<p>The decrement operator decreases the numeric value of its operand by 1. When placed before the 
+operand, it’ll return the decremented value. When placed after the operand, it’ll return the 
+original value and then decrements the operand.</p>
 Let's say we have a variable x = 5 ...
 <br>
-Increment and Decrement see at this <a href="increment_decrement.html">increment_decrement.html</a> file. Run it in your chrome browser.
-For an arithmetical example go to the <a href="practice.html"> practice.html</a> (task: office computers).
+Increment and Decrement see at this <a href="increment_decrement.html">increment_decrement.html</a> 
+file. Run it in your chrome browser.
+For an arithmetical example go to the <a href="practice.html"> practice.html</a> (task: office 
+computers).
 <h5><u>Assignment Operators:</u></h5>
-Take a look at this picture over here: <a href="https://api.sololearn.com/DownloadFile?id=2747">get pic</a>.
+Take a look at this picture over here: <a href="https://api.sololearn.com/DownloadFile?id=2747">get 
+pic</a>.
 They are used to assign values to variables.
 <h5><u>Comparison Operators:</u></h5>
-Take a look at this picture over there: <a href="https://api.sololearn.com/DownloadFile?id=2748"> get pic</a>.
-We can use comparison operators in logical statements to find out if variables or values are different.
+Take a look at this picture over there: <a href="https://api.sololearn.com/DownloadFile?id=2748"> 
+get pic</a>.
+We can use comparison operators in logical statements to find out if variables or values are 
+different.
 <br>
 For a comparison example go to the <a href="practice.html"> practice.html</a> (task: find the adults).
 <h5><u>Logical Operators:</u></h5>
-Take a look at this picture over there: <a href="https://api.sololearn.com/DownloadFile?id=2749"> get pic</a>.
-Logical Operators are also known as Boolean Operators, evaluate an expression and return true or false.
+Take a look at this picture over there: <a href="https://api.sololearn.com/DownloadFile?id=2749"> 
+get pic</a>.
+Logical Operators are also known as Boolean Operators, evaluate an expression and return true or 
+false.
 With logical operators you can connect as many expressions as you want or need to.
 <br>
 For a boolean example go to the <a href="practice.html"> practice.html</a> (task: noon or midnight).
 <hr />
-
+<h3>if / else if / else Statements:</h3>
+You can use the JavaScript if...else statement to create a program that can make decisions. We use 
+<strong>if</strong> to specify a block of code that we want to be executed if a specified condition 
+is true. We can use the <strong>else</strong> statement to specify a block of code that will execute 
+if the condition is false. The <strong>else if</strong> statement is useful because it lets us 
+specify a new condition if the first condition is false.<br>
+For a if, else if, else example go to the <a href="practice.html"> practice.html</a> (if, else if, else 
+example).
+<hr />
+<h3>switch Statement:</h3>
+In case of need to test multiple condition, you can use the switch statement. The switch statement 
+evaluates an expression and executes the corresponding body that matches the expression's result.
+<br>
+For a switch example go to the <a href="practice.html"> practice.html</a> (switch example).
+<br>
+<li>The break statement is optional. If the break statement is encountered, the switch statement ends.</li>
+<li>If the break statement is not used, the cases after the matching case are also executed.</li>
+<li>The default clause is also optional.</li>
+<hr />

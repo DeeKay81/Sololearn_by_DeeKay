@@ -21,4 +21,8 @@
     <li>javascript.md</li>
     <li>practice.html (Task: Noon or Midnight)</li>
     <li>code-projects.html (Trip Planner)</li>
+    <li>javascript.md (if, else if, else Statements)</li>
+    <li>practice.html (if, else if, else Example)</li>
+    <li>javascript.md (switch Statement)</li>
+    <li>practice.html (switch Example)</li>
 </ol>

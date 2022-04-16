@@ -20,4 +20,5 @@
     <li>practice.html (Task: Find the Adults)</li>
     <li>javascript.md</li>
     <li>practice.html (Task: Noon or Midnight)</li>
+    <li>code-projects.html (Trip Planner)</li>
 </ol>

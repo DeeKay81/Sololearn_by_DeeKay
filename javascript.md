@@ -71,3 +71,5 @@ Logical Operators are also known as Boolean Operators, evaluate an expression an
 With logical operators you can connect as many expressions as you want or need to.
 <br>
 For a boolean example go to the <a href="practice.html"> practice.html</a> (task: noon or midnight).
+<hr />
+

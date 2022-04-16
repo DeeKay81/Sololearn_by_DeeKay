@@ -49,6 +49,9 @@ Read through: <a href="https://www.programiz.com/javascript/data-types">Programi
 <h5>Arithmetic Operators:</h5>
 Take a look at this picture over here: <a href="https://api.sololearn.com/DownloadFile?id=2745">get pic</a>
 <br>
-Ok, we all know the basics, but what does this 'increment' or 'decrement' do?
+Ok, we all know the basics, but what does this 'increment' or 'decrement' do?<br>
+<p>The increment operator increases the numeric value of its operand by 1. When placed before the operand, it’ll return the incremented value. When placed after it, it’ll return the original value and then increments the operand.</p>
+<p>The decrement operator decreases the numeric value of its operand by 1. When placed before the operand, it’ll return the decremented value. When placed after the operand, it’ll return the original value and then decrements the operand.</p>
 Let's say we have a variable x = 5 ...
 <p>Increment and Decrement see at this <a href="increment_decrement.html">increment_decrement.html</a> file. Run it in your chrome browser.</p>
+For an arithmetical example go to the <a href="practice.html"> practice.html</a>.

@@ -2,7 +2,7 @@
 
 <h2>Description:</h2>
 <ul>
-  <li>javascript.txt</li>
+  <li>See javascript.txt</li>
 </ul>
 <h2>Order of files toDo:</h2>
 <ul>

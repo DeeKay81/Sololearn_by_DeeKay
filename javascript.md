@@ -45,3 +45,10 @@ Read through: <a href="https://www.programiz.com/javascript/data-types">Programi
 <li>symbol</li>
 <li>object</li>
 <hr />
+<h3>Math Operators:</h3>
+<h5>Arithmetic Operators:</h5>
+Take a look at this picture over here: <a href="https://api.sololearn.com/DownloadFile?id=2745">get pic</a>
+<br>
+Ok, we all know the basics, but what does this 'increment' or 'decrement' do?
+Let's say we have a variable x = 5 ...
+<p>Increment and Decrement see at this <a href="increment_decrement.html">increment_decrement.html</a> file. Run it in your chrome browser.</p>

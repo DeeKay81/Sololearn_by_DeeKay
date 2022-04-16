@@ -28,4 +28,5 @@
     <li>javascript.md (switch Statement)</li>
     <li>practice.html (dark theme)</li>
     <li>javascript.md (loops)</li>
+    <li>practice.html (example and reputation)</li>
 </ol>

@@ -128,6 +128,8 @@ for (initialExpression; condition; updateExpression) {<br>
 For a for loop example go to the <a href="practice.html"> practice.html</a> (for loop example).
 <br>
 Take a look at this picture over there: <a href="for_loop_screenshot.png">explain for loop (screenshot)</a>.
+<br>
+Let's do another quick exercise: <a href="practice.html">practice.html</a> (for loop reputation).
 <h5><u>while loop:</u></h5>
 
 <h5><u>do/while loop:</u></h5>

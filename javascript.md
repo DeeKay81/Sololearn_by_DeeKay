@@ -105,4 +105,31 @@ For a switch example go to the <a href="practice.html"> practice.html</a> (switc
 <li>The break statement is optional. If the break statement is encountered, the switch statement ends.</li>
 <li>If the break statement is not used, the cases after the matching case are also executed.</li>
 <li>The default clause is also optional.</li>
+Let's do another example. Go to the <a href="practice.html"> practice.html</a> (dark theme).
 <hr />
+<h3>Loops:</h3>
+For example, if you want to show a message 100 times, then you can use a loop. It's just a simple example; you can achieve much more with loops.
+<h5><u>for loop:</u></h5>
+
+for (initialExpression; condition; updateExpression) {<br>
+    // for loop body<br>
+}
+<ol>
+<li>The initialExpression initializes and/or declares variables and executes only once.</li>
+<li>The condition is evaluated.
+    <ul>
+    <li>If the condition is false, the for loop is terminated.</li>
+    <li>If the condition is true, the block of code inside the for loop is executed.</li>
+    </ul>
+</li>
+<li>The updateExpression updates the value of initialExpression when the condition is true.</li>
+<li>The condition is evaluated again. This process continues until the condition is false.</li>
+</ol>
+For a for loop example go to the <a href="practice.html"> practice.html</a> (for loop example).
+<br>
+Take a look at this picture over there: <a href="for_loop_screenshot.png">explain for loop (screenshot)</a>.
+<h5><u>while loop:</u></h5>
+
+<h5><u>do/while loop:</u></h5>
+
+<h5><u>break and continue:</u></h5>

@@ -77,5 +77,47 @@
             }
             document.write(`The value is ${choice}`);
         </script>
+    <h2>dark theme in console tab</h2>
+        <script>
+            function dark() {
+                let themeNumber = 4; // change the number; the output will be in the console tab
+                /*
+                1 - Light
+                2 - Dark
+                3 - Nocturne
+                4 - Terminal
+                5 - Indigo
+                */
+                switch (themeNumber) {
+                    case 1:
+                        console.log("Light");
+                        break;
+                    case 2:
+                        console.log("Dark");
+                        break;
+                    case 3:
+                        console.log("Nocturne");
+                        break;
+                    case 4:
+                        console.log("Terminal");
+                        break;
+                    case 5:
+                        console.log("Indigo");
+                        break;
+                    default:
+                        console.log("theme not found");
+                        break;
+                }
+            }
+            dark();
+        </script>
+    <h2>for loop Example in console tab</h2>
+        <script>
+            const howManyTimes = 5; // change the range to get more or less outputs
+            // looping from num = 1 to 5
+            for (let num = 1; num <= howManyTimes; num++) {
+                console.log('I love JavaScript.');
+            }
+        </script>
 </body>
 </html>

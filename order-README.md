@@ -25,4 +25,7 @@
     <li>practice.html (if, else if, else Example)</li>
     <li>javascript.md (switch Statement)</li>
     <li>practice.html (switch Example)</li>
+    <li>javascript.md (switch Statement)</li>
+    <li>practice.html (dark theme)</li>
+    <li>javascript.md (loops)</li>
 </ol>

@@ -110,7 +110,6 @@ Let's do another example. Go to the <a href="practice.html"> practice.html</a> (
 <h3>Loops:</h3>
 For example, if you want to show a message 100 times, then you can use a loop. It's just a simple example; you can achieve much more with loops.
 <h5><u>for loop:</u></h5>
-
 for (initialExpression; condition; updateExpression) {<br>
     // for loop body<br>
 }
@@ -131,7 +130,23 @@ Take a look at this picture over there: <a href="for_loop_screenshot.png">explai
 <br>
 Let's do another quick exercise: <a href="practice.html">practice.html</a> (for loop reputation).
 <h5><u>while loop:</u></h5>
-
+The while loop repeats through a block of code, but only as long as a specified condition is true.
+The condition can be any conditional statement that returns true or false.
+<p>
+while (condition) {<br>
+    // body of loop<br>
+}
+</p>
+<ol>
+<li>A while loop evaluates the condition inside the parenthesis ().</li>
+<li>If the condition evaluates to true, the code inside the while loop is executed.</li>
+<li>The condition is evaluated again.</li>
+<li>This process continues until the condition is false.</li>
+<li>When the condition evaluates to false, the loop stops.</li>
+</ol>
+For a for loop example go to the <a href="practice.html"> practice.html</a> (while loop example).
+<br>
+Take a look at this picture over there: <a href="while_loop_screenshot.png">explain while loop (screenshot)</a>.
 <h5><u>do/while loop:</u></h5>
 
 <h5><u>break and continue:</u></h5>

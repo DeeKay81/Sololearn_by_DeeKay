@@ -27,6 +27,8 @@
     <li>practice.html (switch Example)</li>
     <li>javascript.md (switch Statement)</li>
     <li>practice.html (dark theme)</li>
-    <li>javascript.md (loops)</li>
-    <li>practice.html (example and reputation)</li>
+    <li>javascript.md (for loop)</li>
+    <li>practice.html (for loop example and reputation)</li>
+    <li>javascript.md (while loop)</li>
+    <li>practice.html (while loop example)</li>
 </ol>

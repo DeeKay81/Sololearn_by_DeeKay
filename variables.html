@@ -1,10 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Variables</title>
 </head>
 <body>
-$END$
+    <p>
+        <script>
+            let number = 100; <!-- remember: let = var -->
+            document.write(`This is my number: ${number}`); <!-- be sure you're using the correct quotation marks -->
+        </script>
+    </p>
+    <p>
+        <script>
+            number = 66;
+            document.write(`Changed the variable to: ${number}`);
+        </script>
+    </p>
+    <p>
+        <script>
+            document.write(`Variable has been permanent changed: ${number}`);
+        </script>
+    </p>
 </body>
 </html>

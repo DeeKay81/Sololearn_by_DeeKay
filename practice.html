@@ -7,7 +7,7 @@
 <body>
     <h2>See practice task "Your first program" in console tab</h2>
         <script>
-            console.log('JS is fun') <!-- Task: Your first program -->
+            console.log('JS is fun') // Task: Your first program
         </script>
     <h2>See practice task "Office Computers" in console tab</h2>
         <script>
@@ -16,7 +16,34 @@
             Write the code to get the summary of the monitors in the office.
              */
             let computers = 18
-            console.log(computers * 2) <!-- Task: Office Computers -->
+            console.log(`There are ${computers * 2} monitors.`) // Task: Office Computers
+        </script>
+    <h2>See practice task "Find the Adults" in console tab</h2>
+        <script>
+            /*
+            There are a lot of situations where you want to check someone’s age.
+            You are given a program that takes the age of the user as input.
+            Complete the code to check if the user is an adult, and output to the console the corresponding boolean value.
+             */
+            function age() {
+                let age = 15 // change the numer of the age to see the difference in the output
+                console.log(`A ${age} year old person is an adult: ${age >= 18}`); // Task: Find the Adults
+            }
+            age();
+        </script>
+    <h2>See practice task "Noon or Midnight" in console tab</h2>
+        <script>
+            /*
+            Time flies when you’re having fun. Given a clock that measures 24 hours in a day, write
+            a program that takes the hour as input. If the hour is in the range of 0 to 12, output
+            am to the console, and output pm if it's not.
+             */
+            function hour() {
+                let hour = 17 // change the numer of the hour to see the difference in the output
+                let time = hour >= 0 && hour <= 12 ? "am" : "pm";
+                console.log(`Hour ${hour} is ${time}.`); // Task: Noon or Midnight
+            }
+            hour();
         </script>
 </body>
 </html>

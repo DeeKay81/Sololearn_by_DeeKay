@@ -16,4 +16,8 @@
     <li>increment_decrement.html</li>
     <li>javascript.md</li>
     <li>practice.html (Task: Office Computers)</li>
+    <li>javascript.md</li>
+    <li>practice.html (Task: Find the Adults)</li>
+    <li>javascript.md</li>
+    <li>practice.html (Task: Noon or Midnight)</li>
 </ol>

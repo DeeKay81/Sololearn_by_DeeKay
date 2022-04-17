@@ -148,5 +148,37 @@ For a for loop example go to the <a href="practice.html"> practice.html</a> (whi
 <br>
 Take a look at this picture over there: <a href="while_loop_screenshot.png">explain while loop (screenshot)</a>.
 <h5><u>do/while loop:</u></h5>
+This loop will execute the code block once, before checking if the condition is true, and then it 
+will repeat the loop as long as the condition is true.
 
+let number = 15;<br>
+do {<br>
+document.write(number);<br>
+number++;<br>
+}<br>
+while (number <= 25);
+
+This example prints out numbers from 15 to 25. Note the semicolon used at the end of the 
+do...while loop. This is important. The loop will always be executed at least once, even if the 
+condition is false, because the code block is executed before the condition is tested.
 <h5><u>break and continue:</u></h5>
+The break statement is used to terminate the loop immediately when it is encountered. It's almost 
+always used with decision-making statements. When break is used inside of two nested loops, break 
+terminates the inner loop. When using nested loops, you can also terminate the outer loop with a 
+label statement. However, labeled break is rarely used in JavaScript because this makes the code 
+harder to read and understand. The break statement is also used with switch statements.
+<br><br>
+The continue statement is used to skip the current iteration of the loop and the control flow of the 
+program goes to the next iteration. The continue statement also is almost always used with 
+decision-making statements. The break statement terminates the loop entirely. However, the continue 
+statement only skips the current iteration.<br>
+In a for loop, continue skips the current iteration and control flow jumps to the updateExpression.
+In a while loop, continue skips the current iteration and control flow of the program jumps back to 
+the while condition. The continue statement works in the same way for while and do...while loops.
+When continue is used inside of two nested loops, continue skips the current iteration of the inner 
+loop. When using nested loops, you can skip the current iteration and the control flow of the 
+program can be passed to a label statement's updateExpression. But labeled continue is rarely used 
+in JavaScript because this makes the code harder to read and understand.
+<br>
+Let's have an example output. Go to the <a href="practice.html">practice.html</a> (break and continue).
+<hr />

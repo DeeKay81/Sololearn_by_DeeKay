@@ -77,7 +77,7 @@
             }
             document.write(`The value is ${choice}`);
         </script>
-    <h2>dark theme in console tab</h2>
+    <h2>See practice task "dark theme" in console tab</h2>
         <script>
             function dark() {
                 let themeNumber = 4; // change the number; the output will be in the console tab
@@ -111,7 +111,7 @@
             }
             dark();
         </script>
-    <h2>for loop Example in console tab</h2>
+    <h2>See practice task "for loop Example" in console tab</h2>
         <script>
             const howManyTimes = 5; // change the range to get more or less outputs
             // looping from num = 1 to 5
@@ -119,7 +119,7 @@
                 console.log('I love JavaScript.');
             }
         </script>
-    <h2>for loop Reputation in console tab</h2>
+    <h2>See practice task "for loop Reputation" in console tab</h2>
         <script>
             let expression = 'Learning is fun!'
             const x_times = 3;
@@ -127,15 +127,34 @@
                 console.log(expression)
             }
         </script>
-    <h2>while loop Example in console tab</h2>
+    <h2>See practice task "while loop Example" in console tab</h2>
         <script>
             // program to display numbers from 1 to 5
             // initialize the variable
             let start_num = 1, end_num = 5;
             // while loop from i = 1 to 5
             while (start_num <= end_num) {
-                console.log(start_num);
+                console.log(`while loop example: ${start_num}`);
                 start_num += 1;
+            }
+        </script>
+    <h2>See practice task "break and continue" in console tab</h2>
+        <script>
+            // program to print the value of i
+            for (let numX = 1; numX <= 5; numX++) {
+                // break condition
+                if (numX === 3) {
+                    break;
+                }
+                console.log(`The break statement: ${numX}`);
+            }
+        </script>
+        <script>
+            for (let numY = 0; numY <= 10; numY++) {
+                if (numY === 5) { //5 will not be printed
+                    continue;
+                }
+                console.log(`The continue statement: ${numY}`);
             }
         </script>
 </body>

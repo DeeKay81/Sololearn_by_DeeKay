@@ -31,4 +31,6 @@
     <li>practice.html (for loop example and reputation)</li>
     <li>javascript.md (while loop)</li>
     <li>practice.html (while loop example)</li>
+    <li>javascript.md (break and continue)</li>
+    <li>practice.html (break and continue)</li>
 </ol>
